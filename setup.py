@@ -69,7 +69,7 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     # Bug in Ansible 2.2.2: https://github.com/ansible/ansible/issues/23016
     install_requires=[
-        'ansible==2.2.1.0',
+        'ansible==2.10.0',
         'docker',
         'molecule==1.23',
     ],
